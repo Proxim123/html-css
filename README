@@ -2,5 +2,5 @@
 2.-	border: limit of the content
 	margin: distance from the border to the outside(external)
 	padding: distance from the border to the content(internal)
-3.- id: used to change one thing
-    class: used to modify a bunch of things
+3.-	id: used to change one thing
+	class: used to modify a bunch of things

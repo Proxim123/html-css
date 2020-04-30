@@ -1,0 +1,94 @@
+input {
+	padding: 2px;
+}
+
+input[type=text] {
+    background-color:#ee00ff;
+}
+
+/* CSS selectors
+ * #ol1: descendant selector
+ * #ol2: immidiate selector
+ */
+#ol1 li {
+	color: red;
+}
+
+#ol2 > li {
+	color: blue;
+}
+
+button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 24px;
+    background-color: green;
+}
+
+button:hover {
+    background-color: orange;
+}
+
+#sect1::before {
+    content: "\21d2 Click here: ";
+    font-weight: bold;
+}
+
+#sect3::after {
+    content: " \21d0  Bye Bye";
+    font-weight: bold;
+}
+
+p::selection {
+    color: blue;
+    background-color: grey;
+}
+
+/*
+ * Media queries
+ */
+@media print{
+    .screen-only {
+	display: none;
+    }
+}
+
+@media (min-width: 500px) {
+    h1::before {
+	content: "Welcome to Mitch page"
+    }
+
+    body {
+	background-color: gold;
+    }
+}
+
+@media (max-width: 499px) {
+    h1::before {
+	content: "Welcome"
+    }
+
+    body {
+	background-color: green;
+    }
+}
+
+/*
+ * Flexbox
+ */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container > div {
+    background-color: springgreen;
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+    width: 200px;
+}
+
+/*
+ * Grid
+ */
