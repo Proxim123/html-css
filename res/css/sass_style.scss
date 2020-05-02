@@ -1,0 +1,34 @@
+$color: blue;
+
+#p1 {
+	color: $color;
+}
+
+#p2 {
+	color: $color;
+}
+
+div {
+    p {
+      font-weight: bold;
+    }
+}
+
+%message {
+	 font-size: 18px;
+	 font-weight: bold;
+	 font-family: sans-serif;
+	 border: 2px solid black;
+	 padding: 20px;
+	 margin: 20px;
+}
+
+.success {
+	 @extend %message;
+	 background-color: #97fa5a;
+}
+
+.failure {
+	 @extend %message;
+	 background-color: red;
+}

@@ -59,7 +59,7 @@ p::selection {
     }
 
     body {
-	background-color: gold;
+	background-color: #ede7d8;
     }
 }
 
@@ -69,7 +69,7 @@ p::selection {
     }
 
     body {
-	background-color: green;
+	background-color: #bec4a3;
     }
 }
 
@@ -92,3 +92,15 @@ p::selection {
 /*
  * Grid
  */
+.grid {
+    background-color: green;
+    display: grid;
+    padding: 20px;
+    grid-row-gap: 10px;
+    grid-column-gap: 20px;
+    grid-template-columns: 200px 200px auto;
+}
+
+.grid-item {
+    background-color: white;
+}

@@ -1,6 +1,16 @@
+#HTML & CSS
 1.-	html color picker for color selection
 2.-	border: limit of the content
 	margin: distance from the border to the outside(external)
 	padding: distance from the border to the content(internal)
 3.-	id: used to change one thing
 	class: used to modify a bunch of things
+
+#Bootstrap
+1.- https://getbootstrap.com/docs/4.4/components/alerts/
+
+#Sass
+1.- variables
+	a) use of variable in a css stylesheet (sass variables.scss variables.css)
+	b) constantly update website according to the scss file (sass --watch variables.scss:variables.css)
+2.- nesting
