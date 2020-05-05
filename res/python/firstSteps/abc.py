@@ -1,0 +1,14 @@
+from functions import square
+
+#call of a function
+print(square(10))
+
+#class
+class Point:
+	def __init__(self, x, y):
+		self.x = x
+		self.y = y
+
+p = Point(3, 5)
+print(p.x)
+print(p.y)
